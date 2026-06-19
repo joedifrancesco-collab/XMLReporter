@@ -14,7 +14,6 @@ This repository contains a standalone Windows tool that converts InfoPath XML fo
 - `Convert-InfoPathToPDF.ps1` - main PowerShell converter
 - `Convert InfoPath to PDF.bat` - batch launcher for the converter
 - `Start PDF Generator.bat` - root launcher for double-click use
-- `SourceForms/` - sample XML form and template file used by the converter
 - `PDFs/` - output folder for generated PDFs
 
 ## Requirements
@@ -32,6 +31,5 @@ This repository contains a standalone Windows tool that converts InfoPath XML fo
 
 ## Notes
 
-- The converter can use the raw `SEA2015-Library.xsn` file directly.
-- The included sample files are for local testing only.
+- The converter can read `.xsn` files directly.
 - The `PDFs/` folder is ignored by Git so generated output stays local.
